@@ -2,7 +2,7 @@ class Student
 
   attr_accessor :name, :location, :profile_url
 
-  @@all
+  @@all = []
 
   def initialize(student_hash)
     @name = student_hash[:name]
