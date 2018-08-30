@@ -15,6 +15,6 @@ class Student
     student_array.each do |hash|
       self.new(student_hash)
     end
-    
+
   end
 end
