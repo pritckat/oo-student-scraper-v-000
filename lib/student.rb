@@ -1,6 +1,6 @@
 class Student
 
-  attr_accessors :name
+  attr_accessor :name
 
   def initialize(student_hash)
     @name = :name
