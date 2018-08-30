@@ -17,4 +17,12 @@ class Student
     end
 
   end
+
+  def add_student_attributes
+    
+  end
+
+  def self.all 
+    @@all
+  end
 end
