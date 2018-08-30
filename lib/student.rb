@@ -10,4 +10,11 @@ class Student
     @profile_url = student_hash[:profile_url]
     @@all << self
   end
+
+  def self.create_from_collection(student_array)
+    student_array.each do |hash|
+      self.new(student_hash)
+    end
+    
+  end
 end
